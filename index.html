@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noir Coffee - Premium Coffee Experience</title>
+    <link rel="stylesheet" href="style.css">
+    <meta property="og:image" content="https://bolt.new/static/og_default.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://bolt.new/static/og_default.png">
+</head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <div class="logo">
+          <span class="logo-icon">☕</span>
+          <span class="logo-text">Noir Coffee</span>
+        </div>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#menu" class="nav-link">Menu</a></li>
+          <li><a href="#featured" class="nav-link">Featured</a></li>
+          <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="mobile-toggle" id="mobileToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-container">
+        <div class="hero-left">
+          <h1 class="hero-title fade-in">Discover The<br>Art Of Perfect<br>Coffee</h1>
+          <p class="hero-subtitle fade-in-delay">Experience The Rich And Bold Flavors Of Our Exquisite Coffee Blends. Crafted To Awaken Your Senses And Start Your Day Right</p>
+
+          <div class="hero-buttons fade-in-delay-2">
+            <a href="#menu" class="btn-primary">Order Now</a>
+            <a href="#featured" class="btn-secondary">Explore More</a>
+          </div>
+
+          <div class="hero-stats fade-in-delay-2">
+            <div class="stat">
+              <div class="stat-number">50+</div>
+              <div class="stat-label">Item Of Coffee</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number">20+</div>
+              <div class="stat-label">Order Running</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number">2k+</div>
+              <div class="stat-label">Happy Customer</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="coffee-cup-container">
+            <img src="https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Coffee Cup" class="coffee-cup">
+            <div class="coffee-beans">
+              <div class="bean bean-1"></div>
+              <div class="bean bean-2"></div>
+              <div class="bean bean-3"></div>
+              <div class="bean bean-4"></div>
+              <div class="bean bean-5"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Coffee Products Section -->
+    <section id="menu" class="menu-section">
+      <div class="container">
+        <h2 class="section-title">Our Premium Selection</h2>
+        <p class="section-subtitle">Handcrafted beverages made with passion</p>
+
+        <div class="products-grid">
+          <div class="product-card">
+            <div class="product-image">
+              <img src="https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Espresso">
+              <div class="product-overlay">
+                <button class="view-details">View Details</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3>Classic Espresso</h3>
+              <p>Rich and bold, our signature espresso shot</p>
+              <span class="price">$4.50</span>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="https://images.pexels.com/photos/1251175/pexels-photo-1251175.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Cappuccino">
+              <div class="product-overlay">
+                <button class="view-details">View Details</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3>Velvet Cappuccino</h3>
+              <p>Smooth espresso with steamed milk foam</p>
+              <span class="price">$5.50</span>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="https://images.pexels.com/photos/1188671/pexels-photo-1188671.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Latte">
+              <div class="product-overlay">
+                <button class="view-details">View Details</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3>Caramel Latte</h3>
+              <p>Creamy latte with caramel drizzle</p>
+              <span class="price">$6.00</span>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="https://images.pexels.com/photos/1415555/pexels-photo-1415555.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Cold Brew">
+              <div class="product-overlay">
+                <button class="view-details">View Details</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3>Cold Brew</h3>
+              <p>Smooth, refreshing cold-steeped coffee</p>
+              <span class="price">$5.00</span>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Mocha">
+              <div class="product-overlay">
+                <button class="view-details">View Details</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3>Dark Mocha</h3>
+              <p>Rich chocolate meets premium espresso</p>
+              <span class="price">$6.50</span>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="https://images.pexels.com/photos/1475279/pexels-photo-1475279.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Macchiato">
+              <div class="product-overlay">
+                <button class="view-details">View Details</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3>Caramel Macchiato</h3>
+              <p>Layered perfection with vanilla and caramel</p>
+              <span class="price">$6.00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Drinks Section -->
+    <section id="featured" class="featured-section">
+      <div class="container">
+        <h2 class="section-title">Featured This Month</h2>
+        <p class="section-subtitle">Seasonal specialties you don't want to miss</p>
+
+        <div class="featured-grid">
+          <div class="featured-card">
+            <div class="featured-image">
+              <img src="https://images.pexels.com/photos/1402949/pexels-photo-1402949.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Pumpkin Spice">
+              <span class="badge">New</span>
+            </div>
+            <div class="featured-content">
+              <h3>Autumn Spice Latte</h3>
+              <p>Warm cinnamon, nutmeg, and maple syrup blended with our signature espresso and steamed milk. A cozy embrace in every sip.</p>
+              <span class="featured-price">$7.50</span>
+            </div>
+          </div>
+
+          <div class="featured-card">
+            <div class="featured-image">
+              <img src="https://images.pexels.com/photos/1871019/pexels-photo-1871019.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Vanilla Bean">
+              <span class="badge">Popular</span>
+            </div>
+            <div class="featured-content">
+              <h3>Vanilla Bean Cold Foam</h3>
+              <p>Silky cold brew topped with house-made vanilla bean cold foam. Light, refreshing, and perfectly sweet.</p>
+              <span class="featured-price">$6.50</span>
+            </div>
+          </div>
+
+          <div class="featured-card">
+            <div class="featured-image">
+              <img src="https://images.pexels.com/photos/4224099/pexels-photo-4224099.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Honey Lavender">
+              <span class="badge">Limited</span>
+            </div>
+            <div class="featured-content">
+              <h3>Honey Lavender Latte</h3>
+              <p>Delicate lavender infusion with organic honey and creamy oat milk. A floral symphony for your taste buds.</p>
+              <span class="featured-price">$7.00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+      <div class="container">
+        <h2 class="section-title">What Our Guests Say</h2>
+        <p class="section-subtitle">Stories from our coffee community</p>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">"The best coffee I've ever had! The atmosphere is perfect for working or relaxing. The baristas really know their craft."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">S</div>
+              <div class="author-info">
+                <h4>Sarah Johnson</h4>
+                <span>Regular Customer</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">"Noir Coffee has become my daily ritual. The quality is consistently excellent, and the staff makes you feel like family."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">M</div>
+              <div class="author-info">
+                <h4>Michael Chen</h4>
+                <span>Coffee Enthusiast</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">"From the ambiance to the last sip, everything is perfection. Their seasonal drinks are absolutely incredible!"</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">E</div>
+              <div class="author-info">
+                <h4>Emma Davis</h4>
+                <span>Food Blogger</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact/Reservation Section -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h2>Reserve Your Experience</h2>
+            <p>Join us for an unforgettable coffee experience. Whether it's a morning pick-me-up or an afternoon retreat, we're here for you.</p>
+
+            <div class="info-item">
+              <div class="info-icon">📍</div>
+              <div>
+                <h4>Location</h4>
+                <p>123 Coffee Street, Downtown<br>New York, NY 10001</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon">⏰</div>
+              <div>
+                <h4>Hours</h4>
+                <p>Mon - Fri: 7:00 AM - 8:00 PM<br>Sat - Sun: 8:00 AM - 9:00 PM</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon">📞</div>
+              <div>
+                <h4>Contact</h4>
+                <p>Phone: (555) 123-4567<br>Email: hello@noircoffee.com</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-wrapper">
+            <form class="contact-form" id="contactForm">
+              <h3>Make a Reservation</h3>
+
+              <div class="form-group">
+                <input type="text" id="name" name="name" required>
+                <label for="name">Your Name</label>
+              </div>
+
+              <div class="form-group">
+                <input type="email" id="email" name="email" required>
+                <label for="email">Email Address</label>
+              </div>
+
+              <div class="form-group">
+                <input type="tel" id="phone" name="phone" required>
+                <label for="phone">Phone Number</label>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <input type="date" id="date" name="date" required>
+                  <label for="date">Date</label>
+                </div>
+
+                <div class="form-group">
+                  <input type="time" id="time" name="time" required>
+                  <label for="time">Time</label>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <input type="number" id="guests" name="guests" min="1" max="20" required>
+                <label for="guests">Number of Guests</label>
+              </div>
+
+              <div class="form-group">
+                <textarea id="message" name="message" rows="4"></textarea>
+                <label for="message">Special Requests (Optional)</label>
+              </div>
+
+              <button type="submit" class="submit-button">
+                <span>Book Your Table</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <div class="logo">
+              <span class="logo-icon">☕</span>
+              <span class="logo-text">Noir Coffee</span>
+            </div>
+            <p>Crafting premium coffee experiences since 2020</p>
+          </div>
+
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#featured">Featured</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>Follow Us</h4>
+            <div class="social-links">
+              <a href="#" aria-label="Instagram">Instagram</a>
+              <a href="#" aria-label="Facebook">Facebook</a>
+              <a href="#" aria-label="Twitter">Twitter</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2024 Noir Coffee. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
